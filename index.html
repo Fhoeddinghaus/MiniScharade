@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniScharade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="timer">
+                <strong id="countdown">1:00</strong>
+            </div>
+            <div class="word">
+                <h2>Klicke auf "Start"</h2>
+            </div>
+            <div class="controls">
+                <button id="next" disabled="disabled">Überspringen</button>
+                <button id="right">Start</button>
+            </div>
+            <div class="score">
+                <div>
+                    <span id="score_right">0</span> von <span id="score_all">0</span> richtig
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="wordlist.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
