@@ -2,7 +2,7 @@
     "name": "MiniScharade",
     "theme_color": "#dbe872",
     "background_color": "#2196f3",
-    "display": "standalone",
+    "display": "minimal-ui",
     "orientation": "portrait",
     "scope": "/",
     "start_url": "/"
