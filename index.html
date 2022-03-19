@@ -7,6 +7,12 @@
     <title>MiniScharade</title>
     <link rel="stylesheet" href="style.css">
     <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        // Registering our Service worker
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js', { scope: './' })
+        }
+    </script>
 </head>
 <body>
     <div class="container">
